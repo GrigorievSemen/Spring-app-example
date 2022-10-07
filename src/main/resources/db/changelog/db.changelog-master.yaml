@@ -1,0 +1,18 @@
+databaseChangeLog:
+  - includeAll:
+      path: db/changelog/changes/
+#  - changeSet:
+#      id: addColumn-into_person
+#      author: Grigoriev
+#      changes:
+#        - addColumn:
+#            schemaName: ulab_edu
+#            tableName: person
+#            columns:
+#              - column:
+#                  name: count
+#                  type: bigint
+#                  constraints:
+#                    nullable: false
+
+
